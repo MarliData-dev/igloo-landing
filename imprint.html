@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum — Igloo by MarliData</title>
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0F1B24;
+    --ink-soft:#16252F;
+    --ice:#F5F7F8;
+    --ice-dim:#E7ECEE;
+    --paper:#FFFFFF;
+    --line:#2A3B45;
+    --line-soft:#D7DEE1;
+    --glacier:#4A87A2;
+    --glacier-deep:#3E6E88;
+    --amber:#E08A3C;
+    --amber-deep:#C46F24;
+    --text-dim:#9FB3BD;
+    --text-dim-soft:#5B6E77;
+    font-size:16px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'IBM Plex Sans',system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.5;
+  }
+  code, .mono{font-family:'IBM Plex Mono',monospace;}
+  a{color:inherit;}
+  .wrap{
+    max-width:1160px;
+    margin:0 auto;
+    padding:0 32px;
+  }
+
+  /* ---------- NAV ---------- */
+  header.nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .nav-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:18px 32px;
+    max-width:1160px;margin:0 auto;
+  }
+  .brand{
+    display:flex;align-items:baseline;gap:10px;
+    font-weight:700;font-size:1.15rem;letter-spacing:-0.01em;
+    text-decoration:none;
+  }
+  .brand .dot{color:var(--amber);}
+  .brand small{font-weight:400;font-size:0.72rem;color:var(--text-dim-soft);}
+  .nav-links{display:flex;gap:32px;font-size:0.92rem;}
+  .nav-links a{text-decoration:none;color:var(--text-dim-soft);transition:color .15s;}
+  .nav-links a:hover{color:var(--ink);}
+
+  /* ---------- LEGAL CONTENT ---------- */
+  .legal{padding:72px 0 88px;}
+  .legal .eyebrow{
+    font-size:0.82rem;
+    color:var(--glacier);
+    margin:0 0 14px;
+  }
+  .legal h1{
+    font-size:2.1rem;
+    line-height:1.15;
+    letter-spacing:-0.015em;
+    font-weight:600;
+    margin:0 0 40px;
+  }
+  .legal h2{
+    font-size:1.05rem;
+    font-weight:600;
+    margin:36px 0 8px;
+    letter-spacing:-0.005em;
+  }
+  .legal p{
+    margin:0 0 6px;
+    max-width:60ch;
+    color:var(--ink-soft);
+  }
+  .legal .muted{color:var(--text-dim-soft);font-size:0.9rem;}
+  .legal address{
+    font-style:normal;
+    margin:0 0 6px;
+    max-width:60ch;
+    color:var(--ink-soft);
+  }
+  .legal a{color:var(--glacier-deep);}
+  .legal .block{
+    border-left:2px solid var(--line-soft);
+    padding-left:16px;
+    margin:8px 0 4px;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:var(--ink);
+    color:var(--text-dim-soft);
+    padding:48px 0 32px;
+    border-top:1px solid var(--line);
+  }
+  .footer-inner{
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:0.82rem;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+  .footer-inner .brand{color:var(--ice);font-size:1rem;}
+  .footer-links{display:flex;gap:24px;}
+  .footer-links a{color:var(--text-dim-soft);text-decoration:none;transition:color .15s;}
+  .footer-links a:hover{color:var(--ice);}
+
+  @media (max-width:860px){
+    .nav-links{display:none;}
+    .legal h1{font-size:1.8rem;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Igloo<span class="dot">.</span><small>by MarliData</small></a>
+    <nav class="nav-links">
+      <a href="index.html#platform">Platform</a>
+      <a href="index.html#layers">Layering</a>
+      <a href="index.html#status">What's built</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+    <p class="eyebrow">Rechtliche Angaben</p>
+    <h1>Impressum</h1>
+
+    <h2>Angaben gemäß § 5 DDG</h2>
+    <address>
+      MarliData UG (haftungsbeschränkt)<br>
+      Tempelhofer Damm 140<br>
+      12099 Berlin<br>
+      Deutschland
+    </address>
+
+    <h2>Vertreten durch</h2>
+    <p>vertretungsberechtigt durch den Geschäftsführer Stivens Kalpins</p>
+
+    <h2>Kontakt</h2>
+    <p>E-Mail: <a href="mailto:steve@marlidata.com">steve@marlidata.com</a></p>
+
+    <h2>Registereintrag</h2>
+    <p class="block">
+      Eintragung im Handelsregister<br>
+      Registergericht: Amtsgericht Berlin (Charlottenburg)<br>
+      Registernummer: HRB 272564 B
+    </p>
+
+    <h2>Umsatzsteuer-ID</h2>
+    <p>
+      Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br>
+      DE453740964
+    </p>
+
+    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+    <address>
+      Stivens Kalpins<br>
+      MarliData UG (haftungsbeschränkt)<br>
+      Tempelhofer Damm 140<br>
+      12099 Berlin
+    </address>
+
+    <h2>Streitschlichtung</h2>
+    <p>
+      Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+      <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a>.
+      Unsere E-Mail-Adresse finden Sie oben im Impressum.
+    </p>
+    <p>
+      Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+      Verbraucherschlichtungsstelle teilzunehmen.
+    </p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="brand">Igloo <span style="color:var(--text-dim-soft);font-weight:400;">by MarliData</span></div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="imprint.html">Imprint</a>
+    </div>
+    <div>&copy; 2026 MarliData. All rights reserved.</div>
+  </div>
+</footer>
+
+</body>
+</html>
